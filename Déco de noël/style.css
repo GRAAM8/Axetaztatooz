@@ -1,0 +1,94 @@
+
+/*NAVBAR*/
+body{
+    margin: 0;
+    font-family: arial;
+    background-color: #191716;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    height: 70px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .link {
+    margin: 10px 30px;
+    color: #BB2528;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: #458D2E;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  /* HEROHEADER */
+  .banner {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1587979613382-af5914b8c8b3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    height: 300px;
+    padding: 150px;
+  }
+  
+  .banner h1{
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 4em;
+  }
+
+  .banner h2{
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 2em;
+  }
+
+  /* REALISATIONS */
+
+/* .container {} */
+
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2vw;
+    padding: 2vw;
+
+    
+}
+
+.card-background{
+    background-color: white; 
+}
+
+.card p{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    text-align: center;
+}
+
+.card a{
+    background-color: #6E296B;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+p{
+margin: 0;
+}
